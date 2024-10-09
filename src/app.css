@@ -1,0 +1,43 @@
+body {
+  display: flex; /* Activar Flexbox */
+  justify-content: center; /* Centrar horizontalmente el contenido */
+  align-items: center; /* Centrar verticalmente el contenido */
+  min-height: 100vh; /* Asegura que el cuerpo ocupe el 100% de la altura del viewport */
+  margin: 0; /* Eliminar los márgenes predeterminados */
+  padding: 0; /* Eliminar los rellenos predeterminados */
+  box-sizing: border-box; /* Incluye el borde y padding en el tamaño total del elemento */
+  background-color: #b21717; /* Color de fondo opcional */
+  font-family: Arial, sans-serif; /* Fuente global básica */
+}
+
+input {
+  display: flex;
+  width: 20rem;
+  height: 5rem;
+  margin: 1rem;
+  border-radius: 20px;
+  text-align: center; /* Centra el texto, incluido el placeholder */
+  padding: 10px; /* Asegura que haya algo de espacio dentro del input */
+  width: 100%; /* Opcional: que el input ocupe el 100% del contenedor */
+  box-sizing: border-box;
+}
+
+
+button {
+    display: flex;
+    justify-content: center; /* Centra el texto horizontalmente */
+    align-items: center;     /* Centra el texto verticalmente */
+    padding: 10px 20px;      /* Añade espacio interno al botón */
+    border: none;            /* Elimina el borde por defecto */
+    border-radius: 20px;      /* Bordes redondeados */
+    background-color: #4CAF50; /* Color de fondo */
+    color: white;            /* Color del texto */
+    cursor: pointer;         /* Cambia el cursor cuando se pasa sobre el botón */
+  }
+
+.container {
+    display: flex; /* Activar Flexbox */
+    justify-content: center; /* Centrar horizontalmente el contenido */
+    align-items: center; 
+}
+  
